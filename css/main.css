@@ -13,7 +13,7 @@ a{
 
 header
 {
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../images/image.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.67),rgba(0, 0, 0, 0.67)) ,url("../images/image.jpg");
     background-position:right;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -218,7 +218,7 @@ header li a:hover
 
     .scroll
     {
-        margin-top: 30%;
+        display: none;
     }
 
 }
