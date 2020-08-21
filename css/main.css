@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;500;700;900&display=swap');
+*{
+    font-family: 'Barlow', sans-serif;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url("../images/image.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+}
+
+.head_container
+{
+    text-align: center;
+    width: 100%;
+    height: 100vh;    
+} 
+
+.logo
+{
+    text-align: left;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    
+}
+
+.menu
+{
+    display: none;
+}
+
+li
+{
+    list-style: none;
+    display:inline-block;
+    align-items: center;
+    margin: 3%
+}
+
+header li a
+{
+    color:  #ccc;    
+    font-size: 140%;
+    font-weight: 300;
+    padding: 5px;
+    text-shadow: #ccc;
+    
+}
+
+header li a:hover
+{
+    color: ivory;
+    transition-duration: .5s;
+}
+
+.active
+{
+    color:#ffdd1e;
+}
+
+.hero
+{
+    position: relative;
+    top: 15%;
+    color: ivory;
+}
+
+.hero h1
+{    
+    font-size: 400%;
+    font-weight:900;
+}
+
+.hero .tagline
+{
+    font-size:150% ;
+    color: rgb(236, 236, 236);
+    margin: 1% 1% 3% 1%;
+    font-weight:300;
+    padding:0% 20%;
+    line-height: 200%;
+}
+
+#welcome
+{
+    display: inline-block;
+    padding:1% 5%;
+    border: ivory 2px solid;
+    background-color: ivory;
+    color: #111;
+    border-radius: 200px;
+    font-size: 120%;
+ 
+}
+
+#welcome:hover
+{   
+    transition-timing-function: ease-in;
+    transition-duration: .4s;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.171), 0 6px 20px 0 rgba(255, 255, 255, 0.288);   
+}
+
+.scroll
+{    
+    position: relative;
+    top:30%;    
+}
+
+.scroll:hover
+{
+    transform: translateY(100px );
+    transform: scaleX(100px);
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    
+}
+
+
+
+
+@media(max-width: 1024px)
+{
+    .logo
+    {
+        width:20%
+    }
+
+    header li a
+    {
+        font-size: 100%;
+    }    
+    
+    .hero h1
+    {
+        font-size: 350%;;
+    }
+
+    .hero .tagline
+    {
+        padding: 0% 10%;
+        font-size:120% ;
+        margin-top: 5%;
+    }
+
+    #welcome
+    {
+
+        margin-top: 8%;
+        padding:2% 7%;
+    }
+
+    .scroll
+    {
+        top: 20%;
+    }
+    
+}
+
+@media(max-width: 767px)
+{
+
+    .logo
+    {
+        width: 30%;
+    }
+
+    .menu
+    {
+        display: inline;
+        text-align: right;
+        position: absolute;
+        top: 3%;
+        right: 4%;
+        width: 80%;        
+    }
+
+    header li
+    {
+        display: none;
+    }
+
+    .hero
+    {
+        top: 30%;
+    }
+
+    .hero h1
+    {
+        font-size: 400%;;
+    }
+    
+    .hero .tagline
+    {
+        padding: 0% 10%;
+        font-size:140% ;
+        margin-top: 5%;
+
+    }
+
+    #welcome
+    {
+        margin-top: 7%;
+        padding:2% 7%;
+    }
+
+    .scroll
+    {
+        margin-top: 30%;
+    }
+
+}
+
