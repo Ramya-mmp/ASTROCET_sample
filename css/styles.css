@@ -20,8 +20,8 @@ a
 
 .home
 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.781),rgba(0, 0, 0, 0.733)) ,url("../images/background.jpg");
-    background-position:left;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) ,url("../images/bg.jpg");
+    background-position:right;
     background-repeat: no-repeat;
     background-size: cover;   
     height: 100%;
