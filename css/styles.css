@@ -47,6 +47,7 @@ header
 {
     display: none;
 }
+
 .logo a
 {
     display: inline-block;
@@ -115,27 +116,17 @@ header
 
 
 /*for tablets*/
-@media only screen and (min-width: 768px)
-{
+@media only screen and (min-width: 660px)
+{   
+    .navigation
+    {
+        padding:0% ;
+    }
+
     .hide-mobile
     {
         display: inline-block;
     }
-
-    .menu
-    {
-        display: none;
-    }
-
-    .logo
-    {
-        width: 15%;
-    }
-
-    .logo img
-    {
-        width: 100%;
-    }   
 
     header li
     {
@@ -146,7 +137,7 @@ header
     .nav-items
     {
         display: inline-block;
-        margin: 6% 3%;
+        margin:  3%;
         height: 15%;
     }
 
@@ -155,7 +146,7 @@ header
         color:  #ccc;    
         font-size: 1em;
         font-weight: 500;
-        padding:25px;
+        padding:10px 25px;
         text-shadow: #999;
         transition: .5s;        
     }
@@ -169,21 +160,31 @@ header
     {
         color:#f0cf14;
     }
+
+    .menu
+    {
+        display: none;
+    }
+
+    .logo a
+    {
+        padding: 0px;
+        margin: 25%;
+    }    
     
     .hero
     {
-        padding: 2%;
+        padding: 8%;
     }
 
     .hero .tagline
     {
-        padding: 0% 18%;
+        padding: 0% 15%;
         font-size:1.5em ;
     }
 
     #welcome
     {
-        margin-top: 50px;
         padding:1.5% 6%;
     }
 }  
@@ -195,29 +196,16 @@ header
 @media only screen and (min-width: 992px)
 {
 
-    .navigation{
-        padding:2% ;
-    }
-
     .logo
     {
-        width: 7%;
-        margin: 3%;
-    }
-
-    .logo a
-    {
-        padding: 3%;
+        width: 6%;
+        margin: 1%;
+        margin-left: 3%;
     }
 
     header li a
     {   
         font-size: 1.3em;
-    }
-
-    .hero
-    {
-        padding: 2%;
     }
 
     .hero h1
