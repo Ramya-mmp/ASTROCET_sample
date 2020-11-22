@@ -20,7 +20,7 @@ a
 
 .home
 {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) ,url("../images/bg.jpg");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url("../images/bg.jpg");
     background-position:right;
     background-repeat: no-repeat;
     background-size: cover;   
@@ -34,7 +34,7 @@ header
 
 .navigation
 {
-    padding: 5%;
+    padding: 4%;
 }
 
 .navigation ul
@@ -85,7 +85,7 @@ header
     font-weight:300;
     line-height: 1.8em;
     padding: 0% 10%;    
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 #welcome
@@ -180,7 +180,8 @@ header
     .hero .tagline
     {
         padding: 0% 15%;
-        font-size:1.5em ;
+        font-size:1.1em ;
+        margin-top: 1%;
     }
 
     #welcome
@@ -216,8 +217,8 @@ header
     .hero .tagline
     {
         padding: 0% 20%;
-        font-size:1.8em ;
-        margin-top: -.5%;
+        font-size:1.2em ;
+        margin-top: 1%;
     }
 
     #welcome
